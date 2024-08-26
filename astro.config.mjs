@@ -7,4 +7,5 @@ export default defineConfig({
   integrations: [tailwind()],
   site: "https://Diegosotomayor1.github.io",
   base: "/work-municipality-lima",
+  output: "static",
 });
