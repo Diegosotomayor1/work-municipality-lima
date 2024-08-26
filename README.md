@@ -1,54 +1,30 @@
-# Astro Starter Kit: Basics
+# Obras de la Municipalidad de Lima con Rafael López Aliaga como Alcalde
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto documenta todas las obras realizadas por la Municipalidad de Lima durante el mandato de Rafael López Aliaga como alcalde. El objetivo es proporcionar una visión clara y detallada de los proyectos y mejoras realizadas en la ciudad.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Índice
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Introducción](#introducción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Introducción
 
-## 🚀 Project Structure
+Este proyecto está diseñado para ser una fuente de información completa sobre las obras y proyectos realizados por la Municipalidad de Lima bajo la administración de Rafael López Aliaga. Incluye detalles sobre cada obra, su ubicación, estado de avance y cualquier otra información relevante.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Instalación
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Para clonar y ejecutar este proyecto, necesitarás [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) (que incluye [npm](http://npmjs.com)) y [pnpm](https://pnpm.io/) instalados en tu computadora. Desde tu terminal:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+```bash
+# Clonar este repositorio
+git clone https://github.com/tu-usuario/obras-municipalidad-lima.git
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+# Ir al directorio del proyecto
+cd obras-municipalidad-lima
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Instalar dependencias con pnpm
+pnpm install
