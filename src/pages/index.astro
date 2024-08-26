@@ -6,7 +6,7 @@ import '../index.css';
 const title = 'Welcome to Astro.';
 ---
 
-<Layout title={title} client:only >
+<Layout title={title} client:load >
 	<main class="flex items-center justify-center w-screen md:w-full h-[100dvh] bg-sky-500 bg-[url('/public/bg.jpg')] bg-cover bg-center bg-no-repeat">
 		<div class="w-[calc(100vw-20px)] h-[calc(100dvh-20px)] sm:w-[300px] sm:h-[550px] xl:w-[400px] xl:h-[675px] 4xl:w-[460px] 4xl:h-[800px] bg-white" style="clip-path: inset(0 0 0 0 round 20px)">
 		<section class="snap-y snap-mandatory overflow-y-auto overflow-x-hidden w-full h-full scrollbar-none ">
