@@ -8,7 +8,7 @@ type Article = {
   gallery: ImageGallery[];
 };
 
-type ImageGallery = {
+export type ImageGallery = {
   id: number;
   url: string;
   title: string;
@@ -32,6 +32,20 @@ export const articles: Article[] = [
           "Render del viaducto que conectará La Victoria con San Borja.",
         url: "/work-municipality-lima/viaducto.jpg",
       },
+      {
+        id: 2,
+        title: "Viaducto Las Américas",
+        description:
+          "Render del viaducto que conectará La Victoria con San Luis.",
+        url: "/work-municipality-lima/viaducto.mp4",
+      },
+      {
+        id: 3,
+        title: "Mapa del Viaducto Las Américas",
+        description:
+          "Mapa del viaducto que conectará La Victoria con San Borja.",
+        url: "/work-municipality-lima/viaducto2.png",
+      },
     ],
   },
   {
@@ -44,10 +58,28 @@ export const articles: Article[] = [
     shortDescription: "Extensión del Metropolitano para mejorar la movilidad.",
     gallery: [
       {
-        id: 2,
+        id: 1,
         title: "Metropolitano",
         description: "Ampliación del Metropolitano en Lima.",
         url: "/work-municipality-lima/ampliacion.jpg",
+      },
+      {
+        id: 2,
+        title: "Metropolitano",
+        description: "Ampliación del Metropolitano en Lima.",
+        url: "/work-municipality-lima/metro.jpg",
+      },
+      {
+        id: 3,
+        title: "Inauguracion del Metropolitano",
+        description: "Inauguracion del Metropolitano en Lima.",
+        url: "/work-municipality-lima/inauguracion-metro.jpg",
+      },
+      {
+        id: 4,
+        title: "Pista de Metropolitano",
+        description: "Inauguracion pista del Metropolitano en Lima.",
+        url: "/work-municipality-lima/pista-metro.jpg",
       },
     ],
   },
@@ -61,11 +93,25 @@ export const articles: Article[] = [
     shortDescription: "Teleférico para conectar zonas altas de Lima.",
     gallery: [
       {
-        id: 3,
+        id: 1,
         title: "Teleférico de Lima",
         description:
           "Render del teleférico que unirá Independencia y San Juan de Miraflores.",
         url: "/work-municipality-lima/telefericos.jpg",
+      },
+      {
+        id: 2,
+        title: "Teleférico de Lima",
+        description:
+          "Mapa del teleférico que uniremos San Juan de Miraflores y San Borja.",
+        url: "/work-municipality-lima/mapa-teleferico.jpg",
+      },
+      {
+        id: 3,
+        title: "Teleférico de Lima",
+        description:
+          "Render del teleférico que uniremos San Juan de Miraflores y San Borja.",
+        url: "/work-municipality-lima/telefericos2.jpg",
       },
     ],
   },
@@ -79,10 +125,28 @@ export const articles: Article[] = [
     shortDescription: "Muro de contención para Lima Alta.",
     gallery: [
       {
-        id: 4,
+        id: 1,
         title: "Muro de Contención",
         description: "Construcción del muro de contención en Lima Alta.",
         url: "/work-municipality-lima/muros.jpg",
+      },
+      {
+        id: 2,
+        title: "Muro de Contención",
+        description: "Construcción del muro de contención en Lima Alta.",
+        url: "/work-municipality-lima/muros1.jpg",
+      },
+      {
+        id: 3,
+        title: "Muro de Contención",
+        description: "Construcción del muro de contención en Lima Alta.",
+        url: "/work-municipality-lima/muros2.jpg",
+      },
+      {
+        id: 4,
+        title: "Muro de Contención",
+        description: "Construcción del muro de contención en Lima Alta.",
+        url: "/work-municipality-lima/muros3.jpg",
       },
     ],
   },
@@ -96,10 +160,28 @@ export const articles: Article[] = [
     shortDescription: "Mejora y mantenimiento de parques en Lima.",
     gallery: [
       {
-        id: 6,
+        id: 1,
         title: "Parques de Lima",
         description: "Parques rehabilitados bajo la gestión de López Aliaga.",
         url: "/work-municipality-lima/parque.jpg",
+      },
+      {
+        id: 2,
+        title: "Parques de Lima",
+        description: "Parques rehabilitados bajo la gestión de ：Aliaga.",
+        url: "/work-municipality-lima/parques2.jpg",
+      },
+      {
+        id: 3,
+        title: "Parques de Lima",
+        description: "Parques rehabilitados bajo la gestión de ：Aliaga.",
+        url: "/work-municipality-lima/parques3.jpg",
+      },
+      {
+        id: 4,
+        title: "Parques de Lima",
+        description: "Parques rehabilitados bajo la gestión de ：Aliaga.",
+        url: "/work-municipality-lima/parques4.jpg",
       },
     ],
   },
@@ -113,10 +195,28 @@ export const articles: Article[] = [
     shortDescription: "Apoyo a las ollas comunes en Lima.",
     gallery: [
       {
-        id: 7,
+        id: 1,
         title: "Ollas Comunes",
         description: "Programa de apoyo a las ollas comunes en Lima.",
-        url: "/work-municipality-lima/ollas-comunes.jpg",
+        url: "/work-municipality-lima/ollas3.jpg",
+      },
+      {
+        id: 2,
+        title: "Ollas Comunes",
+        description: "Programa de apoyo a las ollas comunes en Lima.",
+        url: "/work-municipality-lima/ollas.jpg",
+      },
+      {
+        id: 3,
+        title: "Ollas Comunes",
+        description: "Programa de apoyo a las ollas comunes en Lima.",
+        url: "/work-municipality-lima/ollas.mp4",
+      },
+      {
+        id: 4,
+        title: "Ollas Comunes",
+        description: "Programa de apoyo a las ollas comunes en Lima.",
+        url: "/work-municipality-lima/ollas2.jpg",
       },
     ],
   },
@@ -130,10 +230,57 @@ export const articles: Article[] = [
     shortDescription: "Planificación de la Vía Expresa Sur.",
     gallery: [
       {
-        id: 8,
+        id: 1,
         title: "Vía Expresa Sur",
         description: "Render del proyecto de la Vía Expresa Sur.",
         url: "/work-municipality-lima/via-expresa-sur.jpg",
+      },
+      {
+        id: 2,
+        title: "Vía Expresa Sur",
+        description: "Render del proyecto de la Vía Expresa Sur.",
+        url: "/work-municipality-lima/sur.mp4",
+      },
+      {
+        id: 3,
+        title: "Vía Expresa Sur",
+        description: "Render del proyecto de la Vía Expresa Sur.",
+        url: "/work-municipality-lima/sur1.jpeg",
+      },
+      {
+        id: 4,
+        title: "Vía Expresa Sur",
+        description: "Render del proyecto de la Vía Expresa Sur.",
+        url: "/work-municipality-lima/sur2.jpeg",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "4000 motos para serenazgo",
+    content:
+      "El 26 de agosto de 2024, la Municipalidad de Lima entregará 400 nuevas motos todoterreno al Serenazgo de los distritos de Lima Metropolitana. Esta es la cuarta entrega de vehículos de alta cilindrada destinada a reforzar la lucha contra la inseguridad en la ciudad, especialmente en las zonas más vulnerables.",
+    date: "2024-08-26",
+    type: "article",
+    shortDescription: "4000 motos para mejorar la seguridad en la capital.",
+    gallery: [
+      {
+        id: 1,
+        title: "Motos para serenazgo",
+        description: "4000 motos para serenazgo.",
+        url: "/work-municipality-lima/motos.jpeg",
+      },
+      {
+        id: 2,
+        title: "Motos para serenazgo",
+        description: "4000 motos para serenazgo.",
+        url: "/work-municipality-lima/motos.mp4",
+      },
+      {
+        id: 3,
+        title: "Motos para serenazgo",
+        description: "4000 motos para serenazgo.",
+        url: "/work-municipality-lima/motos2.jpg",
       },
     ],
   },

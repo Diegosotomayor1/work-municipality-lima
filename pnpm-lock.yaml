@@ -17,6 +17,9 @@ importers:
       astro:
         specifier: ^4.14.5
         version: 4.14.5(rollup@4.21.0)(typescript@5.5.4)
+      swiper:
+        specifier: ^11.1.10
+        version: 11.1.10
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
@@ -1886,6 +1889,10 @@ packages:
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  swiper@11.1.10:
+    resolution: {integrity: sha512-pAVM6vCb6bumj2B9aSh67l3wP1j5YR8dPQM1YhQKMpnBc33vs+RpyVz6NZYZl/ZopCBSYbbWK5nvESwbmU0QXQ==}
+    engines: {node: '>= 4.7.0'}
 
   tailwind-scrollbar@3.1.0:
     resolution: {integrity: sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg==}
@@ -4409,6 +4416,8 @@ snapshots:
       has-flag: 3.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  swiper@11.1.10: {}
 
   tailwind-scrollbar@3.1.0(tailwindcss@3.4.10):
     dependencies:

@@ -2,39 +2,40 @@
 import Layout from '../layouts/Layout.astro';
 import { articles } from '../constants';
 import MouseScroll from '../components/MouseScroll.astro';
+import Slider from '../components/Slider.astro';
 import '../index.css';
 const title = 'Welcome to Astro.';
 ---
 
 <Layout title={title} >
 	<main class="flex items-center justify-center w-screen md:w-full h-[100dvh] bg-sky-500 bg-[url('/public/bg.jpg')] bg-cover bg-center bg-no-repeat">
-		<div class="w-[calc(100vw-20px)] h-[calc(100dvh-20px)] sm:w-[300px] sm:h-[550px] xl:w-[400px] xl:h-[675px] 4xl:w-[460px] 4xl:h-[800px] bg-white" style="clip-path: inset(0 0 0 0 round 20px)">
-		<section class="snap-y snap-mandatory overflow-y-auto overflow-x-hidden w-full h-full scrollbar-none ">
-			<article class="relative snap-start flex flex-col h-full w-full overflow-hidden">
-				<video src="/work-municipality-lima/video.mp4" autoplay loop muted playsinline class="w-full" />
-				<div class="p-4 h-full flex flex-col gap-4 absolute w-full top-0 left-0 bg-black/75 items-center justify-center">
-					<img src="/work-municipality-lima/logo_without_background.png" alt="" width="100" />
-					<div class="text-white text-center bg-sky-500 px-2 py-4 rounded-xl mb-5">
-					<h3 class="text-3xl font-bold">Obras de la municipalidad de Lima</h3>
-					<p> <span class="italic">Rafael Lopez Aliaga </span>2022 - 2026</p>
-				</div>
-					<MouseScroll />
-				</div>
-			</article>
-			{articles.map((art) => 
-				<article class="relative snap-start flex flex-col h-full w-full overflow-hidden">
-					<img src={art.gallery?.[0]?.url} alt="" />
-					<div class="p-4 h-full flex flex-col gap-1">
-						<h3 class="text-xl font-bold">{art.title}</h3>
-						<p class="text-xs font-bold text-sky-600 opacity-75">📅{art.date}</p>
-						<p class="text-sm opacity-75">{art.shortDescription}</p>
-						<p>{art.content.substring(0,245)}{art.content.length > 245 ? '...' : ''}</p>
-					</div>
-				</article>)
-			}
+	  <div class="w-[calc(100vw-20px)] h-[calc(100dvh-20px)] sm:w-[300px] sm:h-[550px] xl:w-[400px] xl:h-[675px] 4xl:w-[460px] 4xl:h-[800px] bg-white fade-in" style="clip-path: inset(0 0 0 0 round 20px)">
+		<section class="snap-y snap-mandatory overflow-y-auto w-full h-full scrollbar-none overflow-x-hidden">
+		  <article class="relative snap-start flex flex-col h-full w-full overflow-hidden">
+			<video src="/work-municipality-lima/video.mp4" autoplay loop muted playsinline class="w-full h-full object-cover" />
+			<div class="p-4 h-full flex flex-col gap-4 absolute w-full top-0 left-0 bg-black/75 items-center justify-center">
+			  <img src="/work-municipality-lima/logo_without_background.png" alt="" width="100" class="zoom-in animation-duration-2" />
+			  <div class="relative flex text-white text-center rounded-xl fade-in-slide-left animation-duration-2 bg-sky-500">
+				<h3 class="text-2xl font-bold z-10 text-shadow">Obras de la municipalidad de Lima</h3>
+			  </div>
+			  <p class="text-white"> <span class="italic">Rafael Lopez Aliaga </span> 2022 - 2026</p>
+			  <MouseScroll class='-mt-5 -mb-5 slide-up animation-duration-2' />
+			</div>
+		  </article>
+		  {articles.map((art) => 
+			<article class="relative snap-start flex flex-col h-full w-full fade-in-slide">
+			  <Slider gallery={art.gallery} />
+			  <div class="p-4 h-full flex flex-col gap-1">
+				<h3 class="text-xl font-bold">{art.title}</h3>
+				<p class="text-xs font-bold text-sky-600 opacity-75">📅{art.date}</p>
+				<p class="text-sm opacity-75">{art.shortDescription}</p>
+				<p>{art.content.substring(0,220)}{art.content.length > 220 ? '...' : ''}<strong class="text-sky-500 cursor-pointer">{art.content.length > 220 ? 'Leer más' : ''}</strong></p>
+			  </div>
+			</article>)
+		  }
 		</section>
-		</div>
+	  </div>
 	</main>
-</Layout>
-
+  </Layout>
+  
 
