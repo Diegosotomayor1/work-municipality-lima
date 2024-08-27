@@ -4,6 +4,7 @@ import { articles } from '../constants';
 import MouseScroll from '../components/MouseScroll.astro';
 import Slider from '../components/Slider.astro';
 import '../index.css';
+import { Image } from 'astro:assets';
 const title = 'Welcome to Astro.';
 ---
 
@@ -14,7 +15,7 @@ const title = 'Welcome to Astro.';
 		  <article class="relative snap-start flex flex-col h-full w-full overflow-hidden">
 			<video src="/work-municipality-lima/video.mp4" autoplay loop muted playsinline class="w-full h-full object-cover" />
 			<div class="p-4 h-full flex flex-col gap-4 absolute w-full top-0 left-0 bg-black/75 items-center justify-center">
-			  <img src="/work-municipality-lima/logo_without_background.png" alt="" width="100" class="zoom-in animation-duration-2" />
+			  <Image height={100} loading={"eager"} src="/work-municipality-lima/logo_without_background.png" alt="" width="100" class="zoom-in animation-duration-2" />
 			  <div class="relative flex text-white text-center rounded-xl fade-in-slide-left animation-duration-2 bg-sky-500">
 				<h3 class="text-2xl font-bold z-10 text-shadow">Obras de la municipalidad de Lima</h3>
 			  </div>
