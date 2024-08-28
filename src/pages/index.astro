@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { articles } from '../constants';
 import MouseScroll from '../components/MouseScroll.astro';
 import Slider from '../components/Slider.astro';
+import Modal from '../components/Modal.astro';
 import '../index.css';
 import { Image } from 'astro:assets';
 const title = 'Welcome to Astro.';
@@ -30,13 +31,33 @@ const title = 'Welcome to Astro.';
 				<h3 class="text-xl font-bold">{art.title}</h3>
 				<p class="text-xs font-bold text-sky-600 opacity-75">📅{art.date}</p>
 				<p class="text-sm opacity-75">{art.shortDescription}</p>
-				<p>{art.content.substring(0,220)}{art.content.length > 220 ? '...' : ''}<strong class="text-sky-500 cursor-pointer">{art.content.length > 220 ? 'Leer más' : ''}</strong></p>
+				<p>{art.content.substring(0,220)}{art.content.length > 220 ? '...' : ''}<strong class="text-sky-500 cursor-pointer readme">{art.content.length > 220 ? 'Leer más' : ''}</strong></p>
 			  </div>
 			</article>)
 		  }
 		</section>
 	  </div>
+	  <Modal />
 	</main>
   </Layout>
   
 
+<script>
+	const $ = (selector: string) => document.querySelector(selector);
+	const $$ = (selector: string) => document.querySelectorAll(selector);
+	
+	const modal = $('#modal') as HTMLDivElement;
+	const modalContent = $('#modal-content') as HTMLDivElement;
+	const readme = $$('.readme') as unknown as HTMLElement[];
+
+	const modalOpen = (content: string) => {
+		console.log(modal)
+		if (modal && modalContent) {
+			modal.style.display = 'block';
+		}
+	}
+
+	readme.forEach(el => el?.addEventListener('click', () => modalOpen(el.innerHTML)));
+
+
+</script>

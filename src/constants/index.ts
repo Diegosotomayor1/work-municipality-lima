@@ -19,8 +19,13 @@ export const articles: Article[] = [
   {
     id: 1,
     title: "Construcción del Viaducto Las Américas",
-    content:
-      "Este viaducto es una obra de infraestructura vial destinada a mejorar la conectividad entre los distritos de La Victoria, San Luis, y San Borja. Con una extensión de más de 2 kilómetros, el viaducto busca descongestionar las principales arterias de la ciudad, especialmente las avenidas Canadá y Javier Prado. La obra incluye la construcción de puentes elevados, pasos a desnivel y mejoras en el paisaje urbano, con un enfoque en la sostenibilidad y la reducción de emisiones de CO2. Además, se espera que este proyecto facilite el tránsito de más de 100,000 vehículos diariamente, mejorando considerablemente los tiempos de viaje y reduciendo el tráfico en las zonas aledañas.",
+    content: `
+      🚧👷‍♂️ ¡Nueva obra para Lima! 💪 El Viaducto Las Américas es una obra de infraestructura vial destinada a mejorar la conectividad entre los distritos de La Victoria, San Luis, y San Borja. Con una extensión de más de 2 kilómetros, este proyecto busca descongestionar las principales arterias de la ciudad, especialmente las avenidas Canadá y Javier Prado.
+      Incluye la construcción de puentes elevados y pasos a desnivel.
+      Mejoras en el paisaje urbano con enfoque en sostenibilidad.
+      Se espera facilitar el tránsito de más de 100,000 vehículos diariamente.
+      Mejorará considerablemente los tiempos de viaje y reducirá el tráfico en zonas aledañas.
+      `,
     date: "2024-12-01",
     type: "article",
     shortDescription: "Viaducto para mejorar la conectividad vial en Lima.",
@@ -51,8 +56,13 @@ export const articles: Article[] = [
   {
     id: 2,
     title: "Ampliación del Metropolitano",
-    content:
-      "La ampliación del Metropolitano es uno de los proyectos emblemáticos de la actual gestión. Este proyecto incluye la extensión del tramo norte hasta Carabayllo y del tramo sur hacia Lurín, cubriendo así zonas más amplias de la ciudad. La ampliación permitirá atender a un mayor número de usuarios, pasando de 700,000 a 1,000,000 de pasajeros diarios. Además, se implementarán nuevas estaciones y se mejorará la infraestructura existente, con nuevos carriles exclusivos, estaciones inteligentes y un sistema de gestión del tráfico más eficiente. La obra busca reducir el uso de vehículos privados, disminuyendo así la congestión vehicular y la contaminación ambiental.",
+    content: `
+      🚌💨 ¡Mejorando el transporte público! La ampliación del Metropolitano es uno de los proyectos emblemáticos de nuestra gestión. Incluye la extensión del tramo norte hasta Carabayllo y del tramo sur hacia Lurín.
+      Aumentará la capacidad de 700,000 a 1,000,000 de pasajeros diarios.
+      Nuevas estaciones e infraestructura mejorada.
+      Implementación de carriles exclusivos y estaciones inteligentes.
+      Reducción del uso de vehículos privados para disminuir la congestión y contaminación.
+    `,
     date: "2024-08-15",
     type: "article",
     shortDescription: "Extensión del Metropolitano para mejorar la movilidad.",
@@ -86,8 +96,13 @@ export const articles: Article[] = [
   {
     id: 3,
     title: "Teleférico de Lima",
-    content:
-      "El teleférico urbano es una solución innovadora de transporte que conectará el distrito de Independencia con San Juan de Miraflores, sobrevolando zonas de difícil acceso. Este proyecto tiene como objetivo reducir los tiempos de viaje de más de 30,000 personas que se movilizan entre estos distritos, brindando una alternativa rápida y segura. El teleférico cuenta con 5 estaciones y recorre 8 kilómetros, atravesando áreas montañosas y evitando el tráfico terrestre. Además, se integrará con otros sistemas de transporte público como el Metropolitano y la Línea 1 del Metro de Lima, creando un sistema de transporte intermodal más eficiente.",
+    content: `
+      🚡 ¡Conectando Lima desde las alturas! El teleférico urbano es una solución innovadora de transporte que unirá el distrito de Independencia con San Juan de Miraflores.
+        Recorrido de 8 kilómetros con 5 estaciones.
+        Beneficiará a más de 30,000 personas diariamente.
+        Se integrará con el Metropolitano y la Línea 1 del Metro de Lima.
+        Alternativa rápida y segura que evita el tráfico terrestre.
+    `,
     date: "2024-07-10",
     type: "article",
     shortDescription: "Teleférico para conectar zonas altas de Lima.",
@@ -117,9 +132,13 @@ export const articles: Article[] = [
   },
   {
     id: 4,
-    title: "Muro de Contención para Lima Alta",
-    content:
-      "El proyecto del muro de contención está diseñado para proteger a las comunidades de las zonas altas de Lima ante posibles desbordes de ríos y deslizamientos, especialmente en épocas de lluvia intensa asociadas al Fenómeno del Niño. Este muro, de más de 5 kilómetros de longitud, se construye con tecnología avanzada que incluye materiales resistentes y drenajes eficientes para evitar la acumulación de agua. Se espera que esta obra brinde seguridad a más de 50,000 residentes que viven en áreas vulnerables, minimizando los riesgos de desastres naturales y mejorando la calidad de vida de las familias beneficiadas.",
+    title: "Muros de Contención para Lima Alta",
+    content: `
+      💪 ¡Protegiendo a nuestros hermanos de las zonas altas! 🏗️ El muro de contención de más de 5 kilómetros protegerá a las comunidades ante posibles desbordes y deslizamientos.
+      Tecnología avanzada con materiales resistentes y drenajes eficientes.
+      Brindará seguridad a más de 50,000 residentes en áreas vulnerables.
+      Minimizará riesgos de desastres naturales, especialmente en épocas de lluvias intensas.
+    `,
     date: "2023-12-15",
     type: "article",
     shortDescription: "Muro de contención para Lima Alta.",
@@ -153,8 +172,13 @@ export const articles: Article[] = [
   {
     id: 6,
     title: "Rehabilitación de Parques en Lima",
-    content:
-      "La rehabilitación de más de 50 parques en Lima es una iniciativa de la actual gestión para recuperar y embellecer los espacios públicos de la ciudad. Este proyecto incluye la remodelación de áreas verdes, la instalación de juegos infantiles, circuitos deportivos y zonas de descanso, así como la mejora de la iluminación y la seguridad en los parques. Se busca crear espacios más seguros y accesibles para las familias limeñas, promoviendo el esparcimiento, la recreación y un estilo de vida saludable. Algunos de los parques rehabilitados son el Parque de la Exposición, el Parque Castilla y el Parque Kennedy.",
+    content: `
+        🌳🏞️ ¡Espacios verdes para todos! Estamos rehabilitando más de 50 parques en Lima para embellecer los espacios públicos de la ciudad.
+      Remodelación de áreas verdes e instalación de juegos infantiles.
+      Mejora de iluminación y seguridad en los parques.
+      Promoción del esparcimiento y estilo de vida saludable.
+      Incluye la renovación de parques emblemáticos como el Parque de la Exposición y el Parque Kennedy.
+      `,
     date: "2024-03-25",
     type: "article",
     shortDescription: "Mejora y mantenimiento de parques en Lima.",
@@ -188,8 +212,12 @@ export const articles: Article[] = [
   {
     id: 7,
     title: "Programa de Ollas Comunes",
-    content:
-      "El programa de ollas comunes es una medida de apoyo social implementada por la Municipalidad de Lima, que tiene como objetivo asistir a las poblaciones más vulnerables de la ciudad. Con un presupuesto de 80 millones de soles, se ha logrado fortalecer más de 1,000 ollas comunes, brindando alimentos de primera necesidad a miles de familias en situación de pobreza. El programa incluye también capacitaciones en nutrición y manejo de alimentos, buscando no solo paliar el hambre, sino también mejorar la calidad de la dieta de los beneficiarios.",
+    content: `
+        🍲👨‍🍳 ¡300 congeladoras para las ollitas comunes! 💪 Nuestra visión es impulsar el autosostenimiento de estas organizaciones para que no dependan del Estado.
+        Presupuesto de 80 millones de soles para fortalecer más de 1,000 ollas comunes.
+        Brinda alimentos de primera necesidad a miles de familias en situación de pobreza.
+        Incluye capacitaciones en nutrición y manejo de alimentos.
+      `,
     date: "2024-05-10",
     type: "article",
     shortDescription: "Apoyo a las ollas comunes en Lima.",
@@ -223,8 +251,12 @@ export const articles: Article[] = [
   {
     id: 8,
     title: "Proyecto Vía Expresa Sur",
-    content:
-      "La Vía Expresa Sur es un ambicioso proyecto vial que busca extender la actual Vía Expresa de Paseo de la República hasta el distrito de San Juan de Miraflores. Con una longitud de 12 kilómetros, esta vía permitirá una conexión más rápida y directa entre el sur de Lima y el centro de la ciudad. El proyecto incluye la construcción de puentes elevados, túneles, y pasos a desnivel, así como la modernización del sistema de peajes. Esta obra reducirá los tiempos de viaje y contribuirá a la descongestión de avenidas como Angamos, Benavides y Panamericana Sur.",
+    content: `
+      🚗🛣️ ¡Conectando el sur con el centro de Lima! La Vía Expresa Sur extenderá la actual Vía Expresa de Paseo de la República hasta San Juan de Miraflores.
+      12 kilómetros de nueva vía rápida.
+      Construcción de puentes elevados, túneles y pasos a desnivel.
+      Reducirá tiempos de viaje y descongestionará avenidas como Angamos y Panamericana Sur.
+    `,
     date: "2024-04-12",
     type: "article",
     shortDescription: "Planificación de la Vía Expresa Sur.",
@@ -257,12 +289,16 @@ export const articles: Article[] = [
   },
   {
     id: 9,
-    title: "4000 motos para serenazgo",
-    content:
-      "El 26 de agosto de 2024, la Municipalidad de Lima entregará 400 nuevas motos todoterreno al Serenazgo de los distritos de Lima Metropolitana. Esta es la cuarta entrega de vehículos de alta cilindrada destinada a reforzar la lucha contra la inseguridad en la ciudad, especialmente en las zonas más vulnerables.",
+    title: "Seguridad Ciudadana con motos para serenazgo y PNP",
+    content: `
+        🏍️👮‍♂️ ¡1800 motos entregadas! 🏍️🚨 Por primera vez en la historia del Perú, la Municipalidad de Lima asume competencias del Ministerio del Interior y equipa a la Policía Nacional del Perú y al Serenazgo Municipal.
+        Entrega de 4000 motos todoterreno para reforzar la seguridad.
+        Unidades de alta cilindrada para fortalecer el patrullaje integrado.
+        Especial atención a las zonas más vulnerables de la ciudad.
+      `,
     date: "2024-08-26",
     type: "article",
-    shortDescription: "4000 motos para mejorar la seguridad en la capital.",
+    shortDescription: "1800 motos para mejorar la seguridad en la capital.",
     gallery: [
       {
         id: 1,
@@ -281,6 +317,87 @@ export const articles: Article[] = [
         title: "Motos para serenazgo",
         description: "4000 motos para serenazgo.",
         url: "/work-municipality-lima/motos2.jpg",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Obras Viales en Distritos",
+    content: `
+    🚧💪 ¡Seguimos iniciando más obras para Lima! 👷‍♂️ Nuestro objetivo es revolucionar la infraestructura vial en beneficio de millones de limeños.
+    Renovación de pistas y veredas en la av. Lurigancho (San Juan de Lurigancho).
+    Construcción de pistas y veredas en la avenida Metropolitana (Comas).
+    Rehabilitación de importantes avenidas en Santa Anita.
+    Mejoramiento de accesos a zonas altas en Comas, SJL y Pucusana.
+    Reparación de 100,000 m² de pistas en 20 distritos de Lima Metropolitana.
+    `,
+    date: "2023 - 2024",
+    type: "article",
+    shortDescription: "Obras Viales en Distritos",
+    gallery: [
+      {
+        id: 1,
+        title: "Obras Viales en Distritos",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/obras-viales.mp4",
+      },
+      {
+        id: 2,
+        title: "Obras Viales en Distritos",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/obras-viales.jpg",
+      },
+      {
+        id: 3,
+        title: "Obras Viales en Distritos",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/obras-viales2.jpg",
+      },
+      {
+        id: 4,
+        title: "Obras Viales en Distritos",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/obras-viales3.jpg",
+      },
+      {
+        id: 5,
+        title: "Obras Viales en Distritos",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/obras-viales4.jpg",
+      },
+      {
+        id: 6,
+        title: "Obras Viales en Distritos",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/obras-viales5.jpg",
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "Proyecto Agua de Emergencia",
+    content: `
+      💪🚰 ¡Agua para nuestros hermanos! Inauguramos la tercera etapa del proyecto Agua de Emergencia para dotar del líquido vital a las personas más vulnerables.
+      100 atrapanieblas instalados en Villa María del Triunfo.
+      11 tanques y 2 baños con duchas que beneficiarán a miles de familias.
+      Colaboración con voluntarios del colegio Markham y la ONG Peruanos Sin Agua.
+      Proyecto replicable en otras partes de la ciudad.
+    `,
+    date: "2024",
+    type: "article",
+    shortDescription: "Proyecto Agua de Emergencia",
+    gallery: [
+      {
+        id: 1,
+        title: "Proyecto Agua de Emergencia",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/proyecto-agua-de-emergencia.jpg",
+      },
+      {
+        id: 2,
+        title: "Proyecto Agua de Emergencia",
+        description: "Render de las obras de Lima.",
+        url: "/work-municipality-lima/proyecto-agua-de-emergencia2.jpg",
       },
     ],
   },
